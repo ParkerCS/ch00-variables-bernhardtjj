@@ -89,3 +89,21 @@ b = a-b
 a = a-b
 # add two more lines of code here to cause swapping of a and b
 print( "a =", a, "and b =", b)
+
+print("calculating the definite integral")
+print("using a left hand riemann sum")
+
+def f(x): return x**2
+start_val = 0
+end_val = 5
+rectangles = 10000
+
+dist = end_val-start_val
+xstep = dist / rectangles
+ans = 0
+print("from", start_val, "to", end_val)
+for rect in range(rectangles):
+    ans += xstep*f(xstep*rect)
+print("Answer is", ans)
+
+## Now graph rectangles versus ans! when I learn how to matplot I can do that..
