@@ -25,6 +25,8 @@ if newtime > 12.00:
 else:
     print("{:0.2f}".format(newtime), "am")
 
+# Lee - Very nice.  Using the formatting techniques.
+
 # PROBLEM 3 (Wholesale Books - 3pts)
 # The cover price of a book is $27.95, but bookstores get a 50 percent discount.
 # Shipping costs $4 for the first copy and 75 cents for each additional copy.
@@ -45,6 +47,8 @@ tax_percent = 0.095
 units = 8
 
 print(round(units * chair_price * tax_percent, 2))
+# LEE - This is only the tax, not the total. (-1)
+
 
 # PROBLEM 5 (Area of Circle - 3pts)
 # Write code that can compute the area of circle.
@@ -111,3 +115,5 @@ for rect in range(rectangles):
 print("Answer is", ans)
 # It is about 41.6 ish.
 ## Now graph rectangles versus ans! when I learn how to matplot I can do that..
+
+# Lee - NICE WORK on some iterated calculus!
